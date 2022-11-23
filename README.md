@@ -121,10 +121,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina van homepage: 
-  <img src="readme-images/breakdownschets-beginscherm-guidovansark" width="375px" alt="breakdownschets van de hompepage pagina">
+  <img src="readme-images/breakdownschetsbeginschermguidovansark.jpg" width="375px" alt="breakdownschets van de hompepage pagina">
 
   ### de hele pagina van deals: 
-  <img src="readme-images/breakdownschets-deals-guidovansark.jpg" width="375px" alt="breakdown van de deals pagina">
+  <img src="readme-images/breakdownschetsdealsguidovansark.jpg" width="375px" alt="breakdown van de deals pagina">
 </details>
 
 
@@ -138,22 +138,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Ik heb veel gehad aan de oefeningen dit heeft mij veel hulp gebracht om te werken met teksten in afbeeldingen. Alleen ik had een vraag over hoe ik De h1 kon verbergen voor de gebruiker maar niet voor de screenreader? En hoe kan ik de button mee laten verschuiven met de afbeedling?
-<img src="readme-images/button-mee-schuiven" width="375px" alt="breakdownschets van de hompepage pagina">
+<img src="readme-images/buttonmeeschuiven.jpg" width="375px" alt="button laten meeschuiven met de pagina">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | Guido:         | Lynn:              | Chloe:       |                  |
-  | H1 Verbergen   |                    | Hoe laat je  |                  |
-  | voor gebruiker |                    | de navbar    |                  |
-  | Screenreader   | en dit             | hergroeperen | en dan ik dat    |
-  | wel kunnen     | dit als er tijd is | als je site  | dit wil ik zeker |
-  | Button mee     |                    | groter       |                  |
-  | laten schuiven |                    | wordt?       |                  |
-  | met de         |                    |              |                  |
-  | afbeelding     |                    |              |                  |
+  student 1: 
+  Guido: Vraag1: Hoe verberg je de H1 voor de gebruiker en dat de screenreader hem wel kan lezen?
+  Vraah2: Hoe laat je de buttons mee schuiven met de afbeelding? 
 
+   student 2: 
+  Chloe: Vraag1: Hoe kan je de navigatiebar hergroeperen als de site groter wordt?
+
+  student 3: 
+  Chloe: Vraag1: Wat is de beste manier om sliders in je site te implenteren die responsive ook goed werken?
+  
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
