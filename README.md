@@ -40,12 +40,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ik ga mij focussen om het helemaal responsive te maken.
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  homepage  
+  homepage pagina
   <img src="readme-images/hoofdpagina.png" width="375px" alt="bestel nu pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/menupagina.png" width="375px" alt="het menu">
+  Deals pagina 
+  <img src="readme-images/dealspagina.png" width="375px" alt="De deals">
  
 </details>
 
@@ -56,31 +56,60 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 1e werkgroep</summary>
 
+  ### Wie en wat?
+  Test van de website: KFC
+  Gemaakt door Lynn Wolters
+  Site is gekozen door Guido Van Sark
+
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Hieronder zie je een lijst van alle bevindingen die zijn gedaan.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Links: Alle linkjes doen het.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Koppen: Meeste koppen doen het niet omdat het plaatjes zijn.
 
+  Formulierregelaars: Doet het goed, de elementen waar je wat in kan vullen worden opgenoemd.
+
+  Oriëntatiepunten: Doet het alleen op het logo en op de gehele body van de website, bij de rest wordt er niet verteld waar je bent.
+
+  Navigatie: Doet het niet, leest navigatie items niet voor.
+
+  Tekens: Doet het ook niet, bij geen enkel teken wordt er verteld wat het is.
+
+  Woorden: Doet het niet, leest geen enkel woord voor.
+
+  Vensterspots: Doet het niet, pakt geen enkel venster op de website.
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Muis: 
+  Grote knoppen hebben geen hover
+  Navigatiebar items hebben geen hover.
+  Social media icons doen het niet onderaan de footer.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Toetsenbord:
+  Tab knop werkt goed om door alle elementen heen te gaan, het is alleen niet duidelijk hoe je ermee terug kan.
+  Met de spatie balk kan je snel naar beneden, het is niet duidelijk hoe je omhoog gaat.
+  Met de omhoog en omlaag knopjes kan je scrollen.
 
+  Kleurtjes:
+  Je kan van alles nog zien wat het is, wel wordt het eten soms minder lekker door de kleur die het krijgt.
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Spieren Apparaat:
+  De website is (als je je focust) goed te gebruiken, wel zijn sommige items te klein (knoppen, links), waardoor het moeilijk wordt om er op te klikken.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Concentratie test:
+  Website is goed te besturen.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Brillen:
+  Hemifield Loss: alles is nog goed te zien.
+  Color #0779P: alles is nog goed te zien.
+  Peripheral Field Loss: de tekst is te klein om te lezen en de plaatjes zijn te groot om in een oogopslag te kunnen zien.
+  Central Field Loss: alles is nog goed te zien.
+  Low Contrast #0778P: alles is redelijk goed te zien, de tekst kleur kan anders omdat die teveel vervaagt.
+  Combined Loss Diabetic Disease: alles is nog goed te zien.
 
 </details>
 
@@ -91,15 +120,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/breakdownschets-guidovansark.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### de hele pagina van homepage: 
+  <img src="readme-images/breakdownschets-beginscherm-guidovansark" width="375px" alt="breakdownschets van de hompepage pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
+  ### de hele pagina van deals: 
+  <img src="readme-images/breakdownschets-deals-guidovansark.jpg" width="375px" alt="breakdown van de deals pagina">
 </details>
 
 
@@ -112,18 +137,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik heb veel gehad aan de oefeningen dit heeft mij veel hulp gebracht om te werken met teksten in afbeeldingen. Alleen ik had een vraag over hoe ik De h1 kon verbergen voor de gebruiker maar niet voor de screenreader? En hoe kan ik de button mee laten verschuiven met de afbeedling?
+<img src="readme-images/button-mee-schuiven" width="375px" alt="breakdownschets van de hompepage pagina">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Guido:         | Lynn:              | Chloe:       |                  |
+  | H1 Verbergen   |                    | Hoe laat je  |                  |
+  | voor gebruiker |                    | de navbar    |                  |
+  | Screenreader   | en dit             | hergroeperen | en dan ik dat    |
+  | wel kunnen     | dit als er tijd is | als je site  | dit wil ik zeker |
+  | Button mee     |                    | groter       |                  |
+  | laten schuiven |                    | wordt?       |                  |
+  | met de         |                    |              |                  |
+  | afbeelding     |                    |              |                  |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
