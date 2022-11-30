@@ -1,0 +1,396 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+button, summary {
+	cursor: pointer;
+}
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-backgroundwhite:#FFFFFF;
+	--color-backgroundred:#e4002b;
+	--color-backgroundblack:#000000;
+	--color-backgroundgreen:#4EA950;
+}
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+h1, h3{
+	position:fixed;
+	left:-9999em;
+	 top:0; 
+}
+
+a{
+	text-decoration: none;
+	color:var(--color-backgroundblack)
+}
+
+ul{
+	list-style-type: none;
+}
+
+/*********************/
+/* Eerste navigatie */
+/*********************/
+
+ul:nth-of-type(1) {
+	display:flex;
+	flex-wrap:wrap;
+	gap:1em;
+
+	}
+	
+	ul:nth-of-type(1) li {
+	flex-shrink:0;
+	}
+
+	ul:nth-of-type(1) li a{
+		color:var(--color-backgroundblack);
+		font-weight: bold;
+	}
+
+	ul:nth-of-type(1) li a:hover{
+		color:var(--color-backgroundred);
+	}
+	
+	ul:nth-of-type(1) li:nth-of-type(1) {
+	margin-right:auto;
+	}
+
+	ul:nth-of-type(1) img {
+		width: 4em;
+		margin: -1em;
+	}
+
+/********************/
+/* Tweede navigatie */
+/********************/
+
+	ul:nth-of-type(2) {
+		display:flex;
+		flex-wrap:row-reverse;
+		gap:1em;
+		background-color:var(--color-backgroundred);
+		padding:1.5em;
+		}
+
+		ul:nth-of-type(2) li a {
+			color:var(--color-backgroundwhite);
+			font-weight: bold;
+			}
+
+/*******************/
+/* derde navigatie */
+/*******************/
+
+		section:nth-of-type(1) {
+			max-width:100%;
+			background: url("../images/kfcachtergrond.jpeg");
+			background-size:cover;
+			padding: 5em 0;
+		}
+
+		section:nth-of-type(1) article{
+			display:grid;
+			background-color:var(--color-backgroundwhite);
+			padding: 2em 0;
+			text-align: center;
+			margin: 2em 2em;
+			}
+
+			section:first-of-type article{
+				display:block;
+			}
+			
+
+			/* afhalen en bezorgen naast elkaar */
+
+			section:first-of-type article article {
+				display:flex;
+				justify-content:space-evenly;
+			}
+			
+
+			section:nth-of-type(2) a{
+				color:var(--color-backgroundblack);
+				align-items: center;
+				padding: 0.5em;
+			}
+
+			section:nth-of-type(1) button{
+				display:grid;
+				margin: auto;
+				padding: 1em 5em 1em 5em;
+				margin-top: 2em;
+				background-color:var(--color-backgroundred);
+				color:var(--color-backgroundwhite);
+				text-transform: uppercase;
+			}
+
+			section:nth-of-type(1) h2{
+				display:block;
+				text-align: center;
+				padding: 0.5em;
+				color:var(--color-backgroundwhite);
+				font-size: 2.5em;
+			}
+
+			section:nth-of-type(1) form{
+				text-transform: lowercase;
+			}
+
+			/*****************************/
+			/* eerste aanbieding van kfc */
+			/*****************************/
+			
+			section:nth-of-type(2) {
+				background-size: cover;
+				background-repeat: no-repeat;
+				padding: 2em 0;
+				position: relative;
+			}
+
+			section:nth-of-type(2) img{
+				width: 100%;
+			}
+
+			section:nth-of-type(2) a{
+				position:relative;
+				padding: 0.2em 0.3em 0.2em 0.3em;
+				bottom: 2.0em;
+				margin: 0.5em;
+				background-color:var(--color-backgroundgreen);
+				color:var(--color-backgroundwhite);
+				text-transform:uppercase;
+				font-size: clamp(1.1em, 3vw, 3em);
+			}
+
+			/*****************************/
+			/* tweede aanbieding van kfc */
+			/*****************************/
+
+			section:nth-of-type(3) {
+				background-size: cover;
+				background-repeat: no-repeat;
+				padding: 1em 0;
+				position:relative;
+			}
+
+			section:nth-of-type(3) img{
+				width: 100%;
+			}
+
+
+			section:nth-of-type(3) a{
+				position:relative;
+				padding: 0.2em 0.3em 0.2em 0.3em;
+				bottom: 1em;
+				margin: -7em;
+				background-color:var(--color-backgroundred);
+				color:var(--color-backgroundwhite);
+				text-transform:uppercase;
+				font-size: clamp(1.1em, 3vw, 3em);
+			}
+
+			/****************************/
+			/* derde aanbieding van kfc */
+			/****************************/
+
+			section:nth-of-type(4) {
+				background-size: cover;
+				background-repeat: no-repeat;
+				padding: 1em 0;
+				position: relative;
+			}
+
+			section:nth-of-type(4) img{
+				width: 100%;
+			}
+
+			section:nth-of-type(4) a{
+				position:relative;
+				padding: 0.2em 0.3em 0.2em 0.3em;
+				bottom: 2.1em;
+				margin: 0.5em;
+				background-color:var(--color-backgroundred);
+				color:var(--color-backgroundwhite);
+				text-transform:uppercase;
+				font-size: clamp(1.1em, 3vw, 3em);
+			}
+
+			/*****************************/
+			/* vierde aanbieding van kfc */
+			/*****************************/
+
+			section:nth-of-type(5) {
+				background-size: cover;
+				background-repeat: no-repeat;
+				padding: 1em 0;
+				position:relative;
+			}
+
+			section:nth-of-type(5) img{
+				width: 100%;
+			}
+
+
+			section:nth-of-type(5) a{
+				position:relative;
+				padding: 0.2em 0.3em 0.2em 0.3em;
+				bottom: 1em;
+				margin: -7em;
+				background-color:var(--color-backgroundblack);
+				color:var(--color-backgroundwhite);
+				text-transform:uppercase;
+				font-size: clamp(1.1em, 3vw, 3em);
+			}
+
+
+			/*****************************/
+			/* vijfde aanbieding van kfc */
+			/*****************************/
+
+			section:nth-of-type(6) {
+				background-size: cover;
+				background-repeat: no-repeat;
+				padding: 1em 0;
+				position: relative;
+			}
+
+			section:nth-of-type(6) img{
+				width: 100%;
+			}
+
+			section:nth-of-type(6) a{
+				position:relative;
+				padding: 0.2em 0.3em 0.2em 0.3em;
+				bottom: 2.1em;
+				margin: 0.5em;
+				background-color:var(--color-backgroundred);
+				color:var(--color-backgroundwhite);
+				text-transform:uppercase;
+				font-size: clamp(1.1em, 3vw, 3em);
+			}
+
+			/*****************************/
+			/* zesde aanbieding van kfc */
+			/*****************************/
+
+			section:nth-of-type(7) {
+				background-size: cover;
+				background-repeat: no-repeat;
+				padding: 1em 0;
+				position:relative;
+			}
+
+			section:nth-of-type(7) img{
+				width: 100%;
+			}
+
+
+			section:nth-of-type(7) a{
+				position:relative;
+				padding: 0.2em 0.3em 0.2em 0.3em;
+				bottom: 1em;
+				margin: -11em;
+				background-color:var(--color-backgroundblack);
+				color:var(--color-backgroundwhite);
+				text-transform:uppercase;
+				font-size: clamp(1.1em, 3vw, 3em);
+			}
+			/******************************/
+			/* zevende aanbieding van kfc */
+			/******************************/
+
+			section:nth-of-type(8) {
+				background-size: cover;
+				background-repeat: no-repeat;
+				padding: 1em 0;
+				position: relative;
+			}
+
+			section:nth-of-type(8) img{
+				width: 100%;
+			}
+
+			section:nth-of-type(8) a{
+				position:relative;
+				padding: 0.2em 0.3em 0.2em 0.3em;
+				bottom: 2.1em;
+				margin: 0.5em;
+				background-color:var(--color-backgroundred);
+				color:var(--color-backgroundwhite);
+				text-transform:uppercase;
+				font-size: clamp(1.1em, 3vw, 3em);
+			}
+
+			/***********/
+			/* contact */
+			/***********/
+
+			footer{
+				display: flex;
+				text-align: center;
+				align-items: center;
+			}
+
+			footer img{
+				width: 15em;
+			}
+
+			footer:first-of-type{
+				display: flex;
+				flex-direction:column;
+				background-size: cover;
+			}
+
+			footer summary{
+				padding: 0.7em;
+			}
+
+			footer article a{
+				margin: 1em;
+				padding: 1.5em;
+			}
+
+			footer details a{
+			display: flex;
+			flex-direction:column;
+			padding: 0.2em;
+			}
+
+
+			footer article:first-of-type img{
+				width: 11em;
+				margin: 0.5em;
+			}
+
+			footer article:nth-of-type(2) img{
+				width: 4em;
+				margin: 1em -1em;
+			}
+
+			footer article:nth-of-type(3) img{
+				width: 10em;
+				margin: 1em -1em;
+			}
+			
+			footer p{
+				padding: 1em;
+			}

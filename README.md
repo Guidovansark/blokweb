@@ -157,10 +157,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1: Als je je website inspecteert moet je nooit je telefoon aanzetten in de inspecter.
+  - punt 2: Probeer de elementen te benoemen met nth-of-type niet met classes.
+  - Punt 3: Nier meer dan 1 H1 gebruiken op je website. 
+  - Punt 4: Om ervoor te zorgen dat de H1 verborgen is voor de gebruiker kun je met position:fixed, left:-9999em en top:0. Zo is hij helemaal links weggestopt.
+  - Punt 4: Schrijf een nette html waar alles goed en duidelijk onder elkaar staat.
+  - Punt 5: Van alle buttons een link maken met de a.
+  - Punt 6: Door te werken met Position: fixed. kun je een afbeedling op de juiste plek zetten dit geldt ook voor een button.
 
 </details>
 
