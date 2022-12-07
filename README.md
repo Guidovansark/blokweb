@@ -177,17 +177,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben verder gekomen met mijn website en heb hulp kunnen krijgen van de student assistent. Ik had nog wel een vraag over hoe ik een menu vast kan zetten aan de bovenkant van je scherm zodat hij als je scrollt mee gaat?
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  student 1: Guido: 
+  Vraag1: Hoe kun je een blok vastzetten terwijl je scrollt?
+
+  student 2: Chloe: 
+  Vraag1: Hoe blijft de content dezelfde grootte als je de pagina vergroot en verkleint? 
+  Vraag2: Hoe kun je caroussel pijltjes maken waar je op kunt klikken en navigeren?
+
+  student 3: Lynn: 
+  Vraag1: Hoe maak je een button in de slider die ervoor zorgt dat je een andere kleur kunt selecteren?
 
 
   ### Verslag van meeting
@@ -247,17 +251,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Na het werken aan de eerste website heb ik deze nu afgerond en ben ik begonnen aan mijn tweede website. Ik heb veel kunnen vragen aan de student assistenten, maar ik had nog een vraag. Hoe kan ik ervoor zorgen dat een afbeeldingen en een teskt in een zeflde grid column zitten?
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  student 1: Guido: 
+  Vraag1: Hoe kan ik ervoor zorgen dat een afbeeldingen en een teskt in een zeflde grid column zitten?
+
+  student 2: Chloe: 
+  Vraag1: ...
+
+  student 3: Lynn: 
+  Vraag1: ...
 
 
   ### Verslag van meeting

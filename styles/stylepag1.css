@@ -14,66 +14,41 @@ button, summary {
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-backgroundwhite:#FFFFFF;
-	--color-backgroundred:#e4002b;
-	--color-backgroundblack:#000000;
-	--color-backgroundgreen:#4EA950;
-}
 
 
 /****************/
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
-
-h1, h3{
-	position:fixed;
-	left:-9999em;
-	 top:0; 
-}
-
-a{
-	text-decoration: none;
-	color:var(--color-backgroundblack)
-}
-
-ul{
-	list-style-type: none;
-}
-
 /*********************/
 /* Eerste navigatie */
 /*********************/
 
-ul:nth-of-type(1) {
+ul:first-of-type {
 	display:flex;
 	flex-wrap:wrap;
 	gap:1em;
 
 	}
 	
-	ul:nth-of-type(1) li {
+	ul:first-of-type li {
 	flex-shrink:0;
 	}
 
-	ul:nth-of-type(1) li a{
+	ul:first-of-type li a{
 		color:var(--color-backgroundblack);
 		font-weight: bold;
 	}
 
-	ul:nth-of-type(1) li a:hover{
+	ul:first-of-type li a:hover{
 		color:var(--color-backgroundred);
 	}
 	
-	ul:nth-of-type(1) li:nth-of-type(1) {
+	ul:first-of-type li:first-of-type {
 	margin-right:auto;
 	}
 
-	ul:nth-of-type(1) img {
+	ul:first-of-type img {
 		width: 4em;
 		margin: -1em;
 	}
@@ -84,7 +59,6 @@ ul:nth-of-type(1) {
 
 	ul:nth-of-type(2) {
 		display:flex;
-		flex-wrap:row-reverse;
 		gap:1em;
 		background-color:var(--color-backgroundred);
 		padding:1.5em;
