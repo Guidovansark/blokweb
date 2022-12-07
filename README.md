@@ -258,13 +258,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   student 1: Guido: 
-  Vraag1: Hoe kan ik ervoor zorgen dat een afbeeldingen en een teskt in een zeflde grid column zitten?
+  Vraag1: Hoe kan ik ervoor zorgen dat een afbeeldingen en een teskt in een zeflde grid column komen te zitten?
 
   student 2: Chloe: 
-  Vraag1: ...
+  Vraag1: Hoe kan je zonder javascript pijltjes maken in de slider?
 
   student 3: Lynn: 
-  Vraag1: ...
+  Vraag1: Hoe maak je de side navigatie op de product pagina?
+  Vraag2: Hoe navigeer je door een slider met buttons?
 
 
   ### Verslag van meeting
