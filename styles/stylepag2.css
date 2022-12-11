@@ -3,6 +3,16 @@
 /* Eerste navigatie */
 /*********************/
 
+h1 {
+  position:fixed;
+  left:-9999em;
+  top:0; 
+}
+
+h3{
+  font-size: 0.8em;
+}
+
 ul:first-of-type {
   display: flex;
   flex-wrap: wrap;
@@ -23,6 +33,14 @@ ul:first-of-type {
   ul:first-of-type li:first-of-type {
     margin-right:auto;
     }
+
+ header nav ul:nth-of-type(2) li:nth-of-type(5) a{
+    background-color: var(--color-backgroundwhite);
+    padding: 0.4em;
+    margin: -0.3em;
+    border-radius: 0.3em;
+    color: var(--color-backgroundblack);
+  }
 
   /*********************/
   /* Tweede navigatie */
@@ -96,22 +114,95 @@ a {
   /* Buckets */
   /***********/
 
-  section:nth-of-type(1)ul{
+  section:first-of-type h2{
+    margin: 1.5em;
+  }
+
+  section:first-of-type ul{
     display: grid;
-    grid-template-columns:2fr 1fr 1fr;
+    grid-template-columns:1fr 1fr;
     gap:1em;
   }
 
-section:first-of-type h2 {
+@media (min-width: 50em) {
+  section:nth-of-type(1) ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 75em) {
+  section:nth-of-type(1) ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  } 
+}
+
+section:nth-of-type(1) li{
+  box-shadow: -0.1em -1em 1em 0.1em  var(--color-backgroundgray);
+}
+
+section:first-of-type h3 {
   padding-left: 0.5em;
+  margin: 2em;
   }
 
-  section:first-of-type h4 {
+  section:first-of-type h3 {
     color: var(--color-backgroundred);
     }
 
   section:first-of-type img {
-    width: 15em;
+    width: 100%;
     margin: -1em;
 }
 
+section:first-of-type ul a {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+  /***********/
+  /* Chicken */
+  /***********/
+
+  section:nth-of-type(2) h2{
+    margin: 1.5em;
+  }
+
+  section:nth-of-type(2) ul{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap:1em;
+  }
+
+@media (min-width: 50em) {
+  section:nth-of-type(2) ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 75em) {
+  section:nth-of-type(2) ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  } 
+}
+
+section:nth-of-type(2) li{
+  box-shadow: -0.1em -1em 1em 0.1em  var(--color-backgroundgray);
+}
+
+section:nth-of-type(2) h3 {
+  padding-left: 0.5em;
+  }
+
+  section:nth-of-type(2) h3 {
+    color: var(--color-backgroundred);
+    }
+
+  section:nth-of-type(2) img {
+    width: 100%;
+    margin: -1em;
+}
+
+section:nth-of-type(2) ul a {
+  display: flex;
+  flex-direction: column-reverse;
+}

@@ -58,7 +58,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Wie en wat?
   Test van de website: KFC
-  Gemaakt door Lynn Wolters
+  Getest door Lynn Wolters
   Site is gekozen door Guido Van Sark
 
   ### Bevindingen
@@ -196,11 +196,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
+  Ik was niet aanwezig bij deze meeting, maar heb wel te horen gekregen van mijn team wat ze hebben besproken.
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - punt 1: Geef de buttons een bepaalde style om ervoor te zorgen dat images hier geen effect op hebben 
+  - punt 2: Antwoord gekregen hoe je bepaalde dingen positioneert. Dit doe je met position: static, relative, fixed, absolute en sticky.
+  - Punt 3: Om caroussel pijltjes te maken moet je met javascript gaan werken.
+  - Punt 4: Als je de pagina responsive wil houden kun je werken met initial-scale. Zo schaalt de content mee.
+  - Punt 5: Met position: sticky kun je het element boven aan de pagina vast zetten terwijl je scrolt.
 
 </details>
 
@@ -213,31 +215,63 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 8e werkgroep</summary>
 
+  ### Wie en wat?
+  Het Testen van de zeflgemaakte website KFC.
+  Getest door Guido van Sark
+  Site is gekozen door Guido Van Sark
+
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Alle links doen het van de site dit lijkt goed te werken. Je navigeert gemakelijk van 
+  link tot link. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De meeste koppen worden uitgesproken door de screenreader alleen op het scherm wordt je 
+  niet gelijkt naar waar hij op dat moment zich bevindt.
 
+  Formulierregelaars: De hij gaat alle elementen af en laat zien of je het iets wilt 
+  invullen of een lijst wilt uitvouwen. 
+
+  Oriëntatiepunten: Hij laat zien dat je ons kunt volgen en dat je op de link kan drukken 
+  van de appstore. Bij de rest wordt er niet verteld waar je je bevindt op de site.
+
+  Navigatie: Hij vertelt dat je aan het begin bent van de navigatie. Hij toont alle items 
+  die zich in dit veld bevinden. Bij het laatste onderdeel verteld hij dat je aan het 
+  einde van de naviagtie bent.
+
+  Tekens: Hij verteld bij elk item wat het is en wat voor teken het dus is.
+
+  Woorden: Hij leest alle worden voor, ook de worden die je niet ziet op de site zelf. 
+  deze zijn verborgen voor de gebruiker.
+
+  Vensterspots: Hij laat alleen de koppen zien als vensterspot.
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Muis: 
+  Alle items hebben een duidelijke hover. Ze laten zien bij welk item je je bevindt.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Toetsenbord:
+  Met de Tab knop kun je gemakkelijk alle elementen langs gaan. Het niet duidelijk hoe je 
+  terug navigeert naar je vorige tab optie.
+  De optie met de pijltjes toesten voor omhoog en omlaag scrollen werkt.
+  Met de spatie balk kun je snel naar beneden scrollen.
+  Met de enter knop kun je goedkeuren waar je wilt heen navigeren.
 
+  Kleurtjes:
+  Met de tool colorblindly kun je kijken wat voor effect het heeft op mensen die dit 
+  hebben. Alleen geen enkel effect lijkt te werken op mijn site. 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik kon de Motoriek test niet uitvoeren. Ik heb deze les gemist en had de middelen niet 
+  om dit te doen, maar ik heb zelf de mijn site getest op de screereader en muis en 
+  toetsenbord. Zie hierboven.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik kon de Visueel test niet uitvoeren. Ik heb deze les gemist en had de middelen niet om 
+  dit te doen, maar ik heb zelf de mijn site getest op de screereader en muis en 
+  toetsenbord. Zie hierboven.
 
 </details>
 
@@ -271,9 +305,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - punt 1: Ik was @media vergeten toe te voegen aan mijn css. Hiermee kun je het grid aanpassen.
+  - punt 2: Door pijltjes te maken in je slider moet je werken met javascript.
+  - punt 3: Door het een min-width en  max-width te geven aan verschillende navigatie balken.
+  - punt 4: Dit kun je weg werken met position:fixed, left:-9999em en top:0. 
+  - punt 5: Ik moet bij elke html beginnen bij h1 en verder naar beneden tellen en niet een h3 overslaan.
+
+
   - ...
 
 </details>

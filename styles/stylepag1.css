@@ -20,6 +20,12 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 
+h1, h3{
+	position:fixed;
+	left:-9999em;
+	 top:0; 
+}
+
 /*********************/
 /* Eerste navigatie */
 /*********************/
