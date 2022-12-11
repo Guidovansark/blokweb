@@ -17,6 +17,7 @@ ul:first-of-type {
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
+  padding-top: 1.5em;
 }
 
   ul:first-of-type img {
@@ -43,8 +44,22 @@ ul:first-of-type {
   }
 
   /*********************/
+  /* sticky navigatie */
+  /*********************/
+  header{
+    position: sticky;
+    top: 0em;
+    background-color: var(--color-backgroundwhite);
+  }
+  
+  /*********************/
   /* Tweede navigatie */
   /*********************/
+
+  ul:nth-of-type(2){
+    position: sticky;
+    top: 0;
+  }
 
   ul:nth-of-type(2) {
     display: flex;
@@ -75,8 +90,9 @@ ul:first-of-type {
   }
 
   /*********************/
-  /* Tweede navigatie */
+  /* derde navigatie */
   /*********************/
+
 
 ul:nth-of-type(3){
 	list-style:none;
