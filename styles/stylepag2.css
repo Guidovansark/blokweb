@@ -161,9 +161,13 @@ a {
   /* Buckets */
   /***********/
 
+  section:first-of-type h2{
+    margin: 1.5em;
+  }
+
   section:first-of-type img{
     width: 2em;
-    margin:0.5em;
+    margin: auto;
   }
 
   section:first-of-type ul{
@@ -191,12 +195,13 @@ section:nth-of-type(1) li{
 
 section:first-of-type h3 {
   padding-left: 0.5em;
-  margin: 2em;
+  margin: 2.5em;
   }
 
   section:first-of-type a img  {
     width: 100%;
-    margin: -1em;
+    margin: 0;
+    padding: 0.5em;
 }
 
 
@@ -209,8 +214,14 @@ section:first-of-type ul a {
   /* Chicken */
   /***********/
 
+
   section:nth-of-type(2) h2{
     margin: 1.5em;
+  }
+
+  section:nth-of-type(2) img{
+    width: 2em;
+    margin:auto;
   }
 
   section:nth-of-type(2) ul{
@@ -238,12 +249,13 @@ section:nth-of-type(2) li{
 
 section:nth-of-type(2) h3 {
   padding-left: 0.5em;
-  margin-right: 2em;
+  margin-right: 2.5em;
   }
 
-  section:nth-of-type(2) img {
+  section:nth-of-type(2) a img {
     width: 100%;
-    margin: -1em;
+    margin: 0;
+    padding: 0.5em;
 }
 
 section:nth-of-type(2) ul a {
@@ -257,6 +269,11 @@ section:nth-of-type(2) ul a {
 
   section:nth-of-type(3) h2{
     margin: 1.5em;
+  }
+
+  section:nth-of-type(3) img{
+    width: 2em;
+    margin:auto;
   }
 
   section:nth-of-type(3) ul{
@@ -284,12 +301,13 @@ section:nth-of-type(3) li{
 
 section:nth-of-type(3) h3 {
   padding-left: 0.5em;
-  margin: 2em;
+  margin: 2.5em;
   }
 
-  section:nth-of-type(3) img {
+  section:nth-of-type(3) a img {
     width: 100%;
-    margin: -1em;
+    margin: 0;
+    padding: 0.5em;
 }
 
 section:nth-of-type(3) ul a {
