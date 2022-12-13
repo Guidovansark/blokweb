@@ -39,6 +39,7 @@ ul:first-of-type {
   flex-wrap: wrap;
   gap: 1em;
   padding-top: 1.5em;
+  padding-right: 0.5em;
 }
 
   ul:first-of-type img {
