@@ -160,8 +160,9 @@ a {
   /* Buckets */
   /***********/
 
-  section:first-of-type h2{
-    margin: 1.5em;
+  section:first-of-type img{
+    width: 2em;
+    margin:0.5em;
   }
 
   section:first-of-type ul{
@@ -183,7 +184,8 @@ a {
 }
 
 section:nth-of-type(1) li{
-  box-shadow: -0.1em -1em 1em 0.1em  var(--color-backgroundgray);
+  box-shadow: 0.3em -0.2em 1em -0.2em  var(--color-backgroundgray);
+  padding: 1em;
 }
 
 section:first-of-type h3 {
@@ -191,10 +193,11 @@ section:first-of-type h3 {
   margin: 2em;
   }
 
-  section:first-of-type img {
+  section:first-of-type a img  {
     width: 100%;
     margin: -1em;
 }
+
 
 section:first-of-type ul a {
   display: flex;
@@ -228,12 +231,13 @@ section:first-of-type ul a {
 }
 
 section:nth-of-type(2) li{
-  box-shadow: -0.1em -1em 1em 0.1em  var(--color-backgroundgray);
+  box-shadow: 0.3em -0.2em 1em -0.2em  var(--color-backgroundgray);
+  padding: 1em;
 }
 
 section:nth-of-type(2) h3 {
   padding-left: 0.5em;
-  margin: 2em;
+  margin-right: 2em;
   }
 
   section:nth-of-type(2) img {
@@ -273,7 +277,8 @@ section:nth-of-type(2) ul a {
 }
 
 section:nth-of-type(3) li{
-  box-shadow: -0.1em -1em 1em 0.1em  var(--color-backgroundgray);
+  box-shadow: 0.3em -0.2em 1em -0.2em  var(--color-backgroundgray);
+  padding: 1em;
 }
 
 section:nth-of-type(3) h3 {
@@ -291,9 +296,16 @@ section:nth-of-type(3) ul a {
   flex-direction: column-reverse;
 }
 
+section:nth-of-type(3){
+  padding: 1.5em;
+  border-bottom: 0.1em solid var(--color-backgroundblack)
+}
+
+
 	/***********/
 	/* contact */
 	/***********/
+
 			
 	footer{
 		display: flex;
@@ -330,6 +342,7 @@ section:nth-of-type(3) ul a {
 	footer article:first-of-type img{
 		width: 11em;
 		margin: 0.5em;
+    padding: 1em;
 	}
 
 	footer article:nth-of-type(2) img{

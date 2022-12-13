@@ -320,6 +320,11 @@ ul:first-of-type {
 				text-transform:uppercase;
 				font-size: clamp(1.1em, 3vw, 3em);
 			}
+
+			section:nth-of-type(8){
+				padding: 1.5em;
+				border-bottom: 0.1em solid var(--color-backgroundblack)
+			}
 			
 	/***********/
 	/* contact */
@@ -360,6 +365,7 @@ ul:first-of-type {
 	footer article:first-of-type img{
 		width: 11em;
 		margin: 0.5em;
+		padding: 1em;
 	}
 
 	footer article:nth-of-type(2) img{
