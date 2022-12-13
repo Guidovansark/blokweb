@@ -15,16 +15,28 @@
 		font-family:Verdana;
 		text-transform: uppercase;
 	}
-
+	
 	h4{
 		font-size: 0.8em;
 	}
 	
 	a{
 		text-decoration: none;
-		color:var(--color-backgroundblack)
+		color:var(--color-backgroundwwhite);
 	}
 	
 	ul{
 		list-style-type: none;
+	}
+
+	.dark-mode{
+		background:var(--color-backgroundgray);
+	}
+	
+	.light-mode{
+		background:var(--color-backgroundwhite);
+	}
+	
+	.aanuit{
+		color:var(--color-text);
 	}

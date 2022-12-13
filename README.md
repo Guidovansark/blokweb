@@ -328,6 +328,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
+### Responsive: 
+  Ik ben gegaan voor het maken van een website waarbij de website op meerdere aparaten te bereiken is.
+  Ik heb naar mijn mening de Surface plane onderwerpen toegepast:
+  Ik heb geluid toegvoegd aan mijn website.
+  Ik heb een dark/light mode erin verwerkt.
+  Er zit een Scroll animatie erin verwerkt.
+  Er zit een Formulier in wat je kunt invullen.
+  Er zit een Advanced positioning: Sticky in. Om je navigaite in beeld te houden.
+
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes

@@ -34,6 +34,7 @@ ul:first-of-type {
 	display:flex;
 	flex-wrap:wrap;
 	gap:1em;
+	padding-top: 1.5em;
 
 	}
 	
@@ -319,58 +320,58 @@ ul:first-of-type {
 				text-transform:uppercase;
 				font-size: clamp(1.1em, 3vw, 3em);
 			}
-
-			/***********/
-			/* contact */
-			/***********/
-
-			footer{
-				display: flex;
-				text-align: center;
-				align-items: center;
-			}
-
-			footer img{
-				width: 15em;
-			}
-
-			footer:first-of-type{
-				display: flex;
-				flex-direction:column;
-				background-size: cover;
-			}
-
-			footer summary{
-				padding: 0.7em;
-			}
-
-			footer article a{
-				margin: 1em;
-				padding: 1.5em;
-			}
-
-			footer details a{
-			display: flex;
-			flex-direction:column;
-			padding: 0.2em;
-			}
-
-
-			footer article:first-of-type img{
-				width: 11em;
-				margin: 0.5em;
-			}
-
-			footer article:nth-of-type(2) img{
-				width: 4em;
-				margin: 1em -1em;
-			}
-
-			footer article:nth-of-type(3) img{
-				width: 10em;
-				margin: 1em -1em;
-			}
 			
-			footer p{
-				padding: 1em;
-			}
+	/***********/
+	/* contact */
+	/***********/
+			
+	footer{
+		display: flex;
+		text-align: center;
+		align-items: center;
+	}
+
+	footer img{
+		width: 15em;
+	}
+
+	footer:first-of-type{
+		display: flex;
+		flex-direction:column;
+		background-size: cover;
+	}
+
+	footer summary{
+		padding: 0.7em;
+	}
+
+	footer article a{
+		margin: 1em;
+		padding: 1.5em;
+	}
+
+	footer details a{
+		display: flex;
+		flex-direction:column;
+		padding: 0.2em;
+	}
+
+
+	footer article:first-of-type img{
+		width: 11em;
+		margin: 0.5em;
+	}
+
+	footer article:nth-of-type(2) img{
+		width: 4em;
+		margin: 1em -1em;
+	}
+
+	footer article:nth-of-type(3) img{
+		width: 10em;
+		margin: 1em -1em;
+	}
+			
+	footer p{
+		padding: 1em;
+	}
