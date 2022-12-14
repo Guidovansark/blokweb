@@ -319,14 +319,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-
 ## Eindgesprek (week 5)
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  Hier zie je een Grid van 2 en 3 rijen als je de maat van de website verschuift dan sprinhgt het colom op een bepaald punt mee. Zo blijft het responsive.
+  <img src="readme-images/eindgesprekimg/responsive2" width="375px" alt="responsive kolom van 2 rijen">
+  <img src="readme-images/eindgesprekimg/responsive3" width="375px" alt="responsive kolom van 3 rijen">
+
+  Hier zie je dat ik een grid heb gemaakt met daarin een scroll functie. Als de website kleiner is kun je door het assortiment scrollen. Ook zie je dat de navigatie blijft plakken als je naar beneden scrollt. Dit heb ik gedaan met position: sticky. 
+  <img src="readme-images/eindgesprekimg/scrollanimatie" width="375px" alt="Je kunt scrollen door de producten">
+    <img src="readme-images/eindgesprekimg/stickynav" width="375px" alt="De navigatie blijf je zien als je scrollt.">
+
+  Hier zie je dat ik met javascript een darkmode en lightmode heb toegevoed aan de site. Ik vond dit wel lastig dus het enige wat veranderd is de achtergrond. Ik ben hier wel heel blij mee. Zo is het bereikbaar voor mensen die last hebben van velle kleuren. 
+  <img src="readme-images/eindgesprekimg/lightmode" width="375px" alt="Lightmode functie">
+  <img src="readme-images/eindgesprekimg/darkmode" width="375px" alt="Darkmode functie">
+
+  Een van de eisen die bij het kopje responsive hoorde was het toevoegen van geluid. Ik heb met mijn eigen stem iets ingesproken, namelijk: its finger licking good. Dit heb ik gelinkt aan een afbeelding in de footer.
+  <img src="readme-images/eindgesprekimg/geluidtoegevoegd" width="375px" alt="geluid van its finger licking good">
 
 ### Responsive: 
   Ik ben gegaan voor het maken van een website waarbij de website op meerdere aparaten te bereiken is.
@@ -339,18 +351,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  In het begin wist ik niet hoe nou precies het grid werkte op een website. Na veel oefeningen te doen en vragen te stellen hierover ben ik zeer tevreden met het reslutaat. Ik weet nu hoe ik een grid moet gebruiken als je allerlei afbeedlingen naast in een colom wilt hebben.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/eindgesprekimg/gridgebruiken" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  De Kfc website heeft onderaan bij de footer een uitklapbaar stuk om zo op een kleiner scherm minder content te weergeven. Als je dit vergoot gaat dit uitklapbaar element weg en zie je alle content. Alleen ik kwam hier niet uit. Het lukte mij niet om alle content op een groot scherm te weergeven. De content zit in een uitklapbaar venster. Ik kwam hier niet uit en het lukte mij niet om dit stuk responsive te maken.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/eindgesprekimg/uitklappen" width="375px" alt="bummer">
 </details>
-
-
 
 
 
@@ -361,8 +371,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
+  1. bron 1: Sanders, H. (z.d.). KFC - nederlands lekkerste verse kip. KFC. Geraadpleegd op 13 december 2022, van https://www.kfc.nl/
+  2. bron 2: Simple dark mode toggle with css variables. Grizhlie. (z.d.). https://codepen.io/. Geraadpleegd op 13 december 2022, van https://codepen.io/grizhlie/pen/WNpbNBX
   3. ...
 
 </details>
