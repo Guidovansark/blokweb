@@ -20,22 +20,24 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 
+
 h1, h3{
 	position:fixed;
 	left:-9999em;
 	 top:0; 
 }
 
+
 /*********************/
 /* Eerste navigatie */
 /*********************/
+
 
 ul:first-of-type {
 	display:flex;
 	flex-wrap:wrap;
 	gap:1em;
 	padding-top: 1.5em;
-
 	}
 	
 	ul:first-of-type li {
@@ -60,9 +62,11 @@ ul:first-of-type {
 		margin: -1em;
 	}
 
+
 /********************/
 /* Tweede navigatie */
 /********************/
+
 
 	ul:nth-of-type(2) {
 		display:flex;
@@ -76,9 +80,15 @@ ul:first-of-type {
 			font-weight: bold;
 			}
 
+			ul:nth-of-type(2) li a:hover{
+				color: var(--color-backgroundblack);
+			}
+
+
 /*******************/
 /* derde navigatie */
 /*******************/
+
 
 		section:nth-of-type(1) {
 			max-width:100%;
@@ -100,7 +110,7 @@ ul:first-of-type {
 			}
 			
 
-			/* afhalen en bezorgen naast elkaar */
+			/* Afhalen en bezorgen naast elkaar */
 
 			section:first-of-type article article {
 				display:flex;
@@ -141,10 +151,21 @@ ul:first-of-type {
 				text-transform: lowercase;
 			}
 
+			section:nth-of-type(1) input{
+				border-color: var(--color-backgroundgreen);
+				border-style: solid;
+			}
+
+			section:nth-of-type(1) input:focus{
+				background-color:var(--color-backgroundgreen);
+			}
+
+
 			/*****************************/
 			/* eerste aanbieding van kfc */
 			/*****************************/
 			
+
 			section:nth-of-type(2) {
 				background-size: cover;
 				background-repeat: no-repeat;
@@ -171,9 +192,11 @@ ul:first-of-type {
 				box-shadow: 0.1em 0.1em 0.3em var(--color-backgroundblack);
 			}
 
+
 			/*****************************/
 			/* tweede aanbieding van kfc */
 			/*****************************/
+
 
 			section:nth-of-type(3) {
 				background-size: cover;
@@ -202,9 +225,11 @@ ul:first-of-type {
 				box-shadow: 0.1em 0.1em 0.3em var(--color-backgroundblack);
 			}
 
+
 			/****************************/
 			/* derde aanbieding van kfc */
 			/****************************/
+
 
 			section:nth-of-type(4) {
 				background-size: cover;
@@ -232,9 +257,11 @@ ul:first-of-type {
 				box-shadow: 0.1em 0.1em 0.3em var(--color-backgroundblack);
 			}
 
+
 			/*****************************/
 			/* vierde aanbieding van kfc */
 			/*****************************/
+
 
 			section:nth-of-type(5) {
 				background-size: cover;
@@ -263,9 +290,11 @@ ul:first-of-type {
 				box-shadow: 0.1em 0.1em 0.3em var(--color-backgroundwhite);
 			}
 
+
 			/*****************************/
 			/* vijfde aanbieding van kfc */
 			/*****************************/
+
 
 			section:nth-of-type(6) {
 				background-size: cover;
@@ -293,9 +322,11 @@ ul:first-of-type {
 				box-shadow: 0.1em 0.1em 0.3em var(--color-backgroundblack);
 			}
 
+
 			/*****************************/
 			/* zesde aanbieding van kfc */
 			/*****************************/
+
 
 			section:nth-of-type(7) {
 				background-size: cover;
@@ -323,9 +354,11 @@ ul:first-of-type {
 				box-shadow: 0.1em 0.1em 0.3em var(--color-backgroundwhite);
 			}
 
+
 			/******************************/
 			/* zevende aanbieding van kfc */
 			/******************************/
+
 
 			section:nth-of-type(8) {
 				background-size: cover;
@@ -357,11 +390,13 @@ ul:first-of-type {
 				padding: 1.5em;
 				border-bottom: 0.1em solid var(--color-backgroundblack)
 			}
-			
+
+
 	/***********/
 	/* contact */
 	/***********/
-			
+
+
 	footer{
 		display: flex;
 		text-align: center;

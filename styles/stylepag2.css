@@ -1,6 +1,8 @@
 /**************/
 /* CSS REMEDY */
 /**************/
+
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
@@ -20,9 +22,11 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 
+
 /*********************/
 /* Eerste navigatie */
 /*********************/
+
 
 h1 {
   position:fixed;
@@ -74,9 +78,12 @@ ul:first-of-type {
     color: var(--color-backgroundwhite);
 	}
 
+
   /*********************/
   /* sticky navigatie */
   /*********************/
+
+
   header {
     position: sticky;
     top: 0em;
@@ -87,6 +94,7 @@ ul:first-of-type {
   /*********************/
   /* Tweede navigatie */
   /*********************/
+
 
   ul:nth-of-type(2) {
     display: flex;
@@ -126,6 +134,7 @@ ul:first-of-type {
     margin-right: auto;
   }
 
+
   /*********************/
   /* derde navigatie */
   /*********************/
@@ -153,8 +162,6 @@ ul:nth-of-type(3) img:hover{
   border: 2px solid var(--color-backgroundblack);
 }
 
-  
-
 ul:nth-of-type(3) h2{
   font-size: 0.6em;
   text-align: left;
@@ -166,9 +173,11 @@ a {
   align-items: center;
 }
 
+
   /***********/
   /* Buckets */
   /***********/
+
 
   section:first-of-type h2{
     margin: 1.5em;
@@ -213,11 +222,11 @@ section:first-of-type h3 {
     padding: 0.5em;
 }
 
-
 section:first-of-type ul a {
   display: flex;
   flex-direction: column-reverse;
 }
+
 
   /***********/
   /* Chicken */
@@ -272,9 +281,11 @@ section:nth-of-type(2) ul a {
   flex-direction: column-reverse;
 }
 
+
   /**********/
   /* Veggie */
   /**********/
+
 
   section:nth-of-type(3) h2{
     margin: 1.5em;
@@ -334,7 +345,7 @@ section:nth-of-type(3){
 	/* contact */
 	/***********/
 
-			
+
 	footer{
 		display: flex;
 		text-align: center;

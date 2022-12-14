@@ -29,9 +29,14 @@
 		list-style-type: none;
 	}
 
+
+	/* ***************** */
+	/* Light en darkmode */
+	/* ***************** */
+
+	
 	.dark-mode{
 		background:var(--color-backgroundgray);
-		
 	}
 	
 	.light-mode{
