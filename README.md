@@ -326,19 +326,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je uitkomst - karakteristiek screenshots:
   Hier zie je een Grid van 2 en 3 rijen als je de maat van de website verschuift dan sprinhgt het colom op een bepaald punt mee. Zo blijft het responsive.
-  <img src="readme-images/responsive2.jpg" width="375px" alt="responsive kolom van 2 rijen">
-  <img src="readme-images/responsive3.jpg" width="375px" alt="responsive kolom van 3 rijen">
+
+  <img src="readme-images/responsive2.jpg" width="300px" alt="responsive kolom van 2 rijen">
+  <img src="readme-images/responsive3.jpg" width="300px" alt="responsive kolom van 3 rijen">
 
   Hier zie je dat ik een grid heb gemaakt met daarin een scroll functie. Als de website kleiner is kun je door het assortiment scrollen. Ook zie je dat de navigatie blijft plakken als je naar beneden scrollt. Dit heb ik gedaan met position: sticky. 
-  <img src="readme-images/eindgesprekimg/scrollanimatie" width="375px" alt="Je kunt scrollen door de producten">
-    <img src="readme-images/eindgesprekimg/stickynav" width="375px" alt="De navigatie blijf je zien als je scrollt.">
+
+  <img src="readme-images/scrollanimatie.jpg" width="300px" alt="Je kunt scrollen door de producten">
+    <img src="readme-images/stickynav.jpg" width="300px" alt="De navigatie blijf je zien als je scrollt.">
 
   Hier zie je dat ik met javascript een darkmode en lightmode heb toegevoed aan de site. Ik vond dit wel lastig dus het enige wat veranderd is de achtergrond. Ik ben hier wel heel blij mee. Zo is het bereikbaar voor mensen die last hebben van velle kleuren. 
-  <img src="readme-images/eindgesprekimg/lightmode" width="375px" alt="Lightmode functie">
-  <img src="readme-images/eindgesprekimg/darkmode" width="375px" alt="Darkmode functie">
+
+  <img src="readme-images/lightmode.jpg" width="300px" alt="Lightmode functie">
+  <img src="readme-images/darkmode.jpg" width="300px" alt="Darkmode functie">
 
   Een van de eisen die bij het kopje responsive hoorde was het toevoegen van geluid. Ik heb met mijn eigen stem iets ingesproken, namelijk: its finger licking good. Dit heb ik gelinkt aan een afbeelding in de footer.
-  <img src="readme-images/eindgesprekimg/geluidtoegevoegd" width="375px" alt="geluid van its finger licking good">
+
+  <img src="readme-images/geluidtoegevoegd.jpg" width="300px" alt="Geluid van its finger licking good">
 
 ### Responsive: 
   Ik ben gegaan voor het maken van een website waarbij de website op meerdere aparaten te bereiken is.
@@ -353,13 +357,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   In het begin wist ik niet hoe nou precies het grid werkte op een website. Na veel oefeningen te doen en vragen te stellen hierover ben ik zeer tevreden met het reslutaat. Ik weet nu hoe ik een grid moet gebruiken als je allerlei afbeedlingen naast in een colom wilt hebben.
 
-  <img src="readme-images/eindgesprekimg/gridgebruiken" width="375px" alt="top">
+  <img src="readme-images/gridgebruiken.jpg" width="300px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   De Kfc website heeft onderaan bij de footer een uitklapbaar stuk om zo op een kleiner scherm minder content te weergeven. Als je dit vergoot gaat dit uitklapbaar element weg en zie je alle content. Alleen ik kwam hier niet uit. Het lukte mij niet om alle content op een groot scherm te weergeven. De content zit in een uitklapbaar venster. Ik kwam hier niet uit en het lukte mij niet om dit stuk responsive te maken.
 
-  <img src="readme-images/eindgesprekimg/uitklappen" width="375px" alt="bummer">
+  <img src="readme-images/uitklappen.jpg" width="300px" alt="bummer">
 </details>
 
 
