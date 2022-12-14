@@ -342,7 +342,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Een van de eisen die bij het kopje responsive hoorde was het toevoegen van geluid. Ik heb met mijn eigen stem iets ingesproken, namelijk: its finger licking good. Dit heb ik gelinkt aan een afbeelding in de footer.
 
-  <img src="readme-images/geluidtoegevoegd.jpg" width="300px" alt="Geluid van its finger licking good">
+  <img src="readme-images/geluidtoegevoegd.jpg" width="250px" alt="Geluid van its finger licking good">
 
 ### Responsive: 
   Ik ben gegaan voor het maken van een website waarbij de website op meerdere aparaten te bereiken is.
@@ -357,13 +357,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   In het begin wist ik niet hoe nou precies het grid werkte op een website. Na veel oefeningen te doen en vragen te stellen hierover ben ik zeer tevreden met het reslutaat. Ik weet nu hoe ik een grid moet gebruiken als je allerlei afbeedlingen naast in een colom wilt hebben.
 
-  <img src="readme-images/gridgebruiken.jpg" width="300px" alt="top">
+  <img src="readme-images/gridgebruiken.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   De Kfc website heeft onderaan bij de footer een uitklapbaar stuk om zo op een kleiner scherm minder content te weergeven. Als je dit vergoot gaat dit uitklapbaar element weg en zie je alle content. Alleen ik kwam hier niet uit. Het lukte mij niet om alle content op een groot scherm te weergeven. De content zit in een uitklapbaar venster. Ik kwam hier niet uit en het lukte mij niet om dit stuk responsive te maken.
 
-  <img src="readme-images/uitklappen.jpg" width="300px" alt="bummer">
+  <img src="readme-images/uitklappen.jpg" width="375px" alt="bummer">
 </details>
 
 
