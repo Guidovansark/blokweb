@@ -113,6 +113,10 @@ ul:first-of-type {
     color: var(--color-backgroundwhite);
     font-weight: bold;
   }
+
+  ul:nth-of-type(2) li a:hover{
+    color: var(--color-backgroundblack);
+	}
   
   ul:nth-of-type(2) li {
   flex-shrink:0;
@@ -142,8 +146,13 @@ ul:nth-of-type(3) img{
     width: 5em;
     height: 5em;
     border-radius: 25em;
-    border: 2px solid red;
+    border: 2px solid var(--color-backgroundred);
 }
+
+ul:nth-of-type(3) img:hover{
+  border: 2px solid var(--color-backgroundblack);
+}
+
   
 
 ul:nth-of-type(3) h2{
