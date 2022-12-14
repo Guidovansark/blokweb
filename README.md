@@ -40,12 +40,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ik ga mij focussen om het helemaal responsive te maken.
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  homepage pagina
-  <img src="readme-images/hoofdpagina.png" width="375px" alt="bestel nu pagina">
+  De hoofdpagina van de kfc.
+
+  <img src="readme-images/hoofdpagina.jpg" width="375px" alt="De bestel nu pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Deals pagina 
-  <img src="readme-images/dealspagina.png" width="375px" alt="De deals">
+  De pagina van de kfc waar alle deals te zien zijn.
+
+  <img src="readme-images/dealspagina.jpg" width="375px" alt="De pagina met alle deals">
+
+  #### Aanpassing Screenshot(s) van de tweede pagina (small screen):
+  De pagina van de kfc waar het menu te zien is. Ik ben geswitcht van pagina. Ik had het idee dat deze pagina best simpel was om na te maken. Toen heb ik gekozen om de pagina na te maken waar het menu op te zien is. Dit was wat uitdagender.
+  
+  <img src="readme-images/menupagina.jpg" width="375px" alt="De pagina van het menu">
+
  
 </details>
 
