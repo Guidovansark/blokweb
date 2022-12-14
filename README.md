@@ -326,8 +326,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je uitkomst - karakteristiek screenshots:
   Hier zie je een Grid van 2 en 3 rijen als je de maat van de website verschuift dan sprinhgt het colom op een bepaald punt mee. Zo blijft het responsive.
-  <img src="readme-images/eindgesprekimg/responsive2" width="375px" alt="responsive kolom van 2 rijen">
-  <img src="readme-images/eindgesprekimg/responsive3" width="375px" alt="responsive kolom van 3 rijen">
+  <img src="readme-images/responsive2.jpg" width="375px" alt="responsive kolom van 2 rijen">
+  <img src="readme-images/responsive3.jpg" width="375px" alt="responsive kolom van 3 rijen">
 
   Hier zie je dat ik een grid heb gemaakt met daarin een scroll functie. Als de website kleiner is kun je door het assortiment scrollen. Ook zie je dat de navigatie blijft plakken als je naar beneden scrollt. Dit heb ik gedaan met position: sticky. 
   <img src="readme-images/eindgesprekimg/scrollanimatie" width="375px" alt="Je kunt scrollen door de producten">
